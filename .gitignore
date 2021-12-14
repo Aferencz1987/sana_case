@@ -25,3 +25,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore simplecov to prevent merge errors
+/coverage/*
+
+# Ignore vcr setup to hide senstive data
+/spec/support/vcr.rb
