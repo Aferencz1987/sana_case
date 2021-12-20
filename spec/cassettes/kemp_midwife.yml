@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://npiregistry.cms.hhs.gov/api/?last_name=kemp&taxonomy_description=midwife&version=2.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 18 Dec 2021 22:11:22 GMT
+      Content-Type:
+      - application/json
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Set-Cookie:
+      - TS017b4e40=01cffab1d39de14c816a2d869862436f7200f337e50d660a8de84a74386ce66c6a2cbcc3b30d4b6b773132861beae20f3a169aaf85;
+        Path=/; Domain=.npiregistry.cms.hhs.gov
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"result_count":4, "results":[{"enumeration_type": "NPI-1", "number":
+        1427051499, "last_updated_epoch": 1381795200, "created_epoch": 1116892800,
+        "basic": {"first_name": "LAURA", "last_name": "KEMP", "middle_name": "L",
+        "credential": "CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date":
+        "2005-05-24", "last_updated": "2013-10-15", "status": "A", "name": "KEMP LAURA"},
+        "other_names": [], "addresses": [{"country_code": "US", "country_name": "United
+        States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "501 VAN BUREN ST", "address_2": "SUITE 203", "city": "FOSTORIA", "state":
+        "OH", "postal_code": "448301534", "telephone_number": "419-435-4950", "fax_number":
+        "419-435-0849"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "501 VAN BUREN ST", "address_2":
+        "SUITE 203", "city": "FOSTORIA", "state": "OH", "postal_code": "448301534",
+        "telephone_number": "419-435-4950", "fax_number": "419-435-0849"}], "taxonomies":
+        [{"code": "367A00000X", "desc": "Advanced Practice Midwife", "primary": true,
+        "state": "OH", "license": "RN183006"}], "identifiers": [{"identifier": "2530434",
+        "code": "05", "desc": "MEDICAID", "state": "OH", "issuer": ""}]},{"enumeration_type":
+        "NPI-1", "number": 1316164577, "last_updated_epoch": 1183852800, "created_epoch":
+        1176940800, "basic": {"first_name": "SAMARA", "last_name": "KEMP", "credential":
+        "CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date": "2007-04-19",
+        "last_updated": "2007-07-08", "status": "A", "name": "KEMP SAMARA"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "2040 SUTTER
+        PL", "address_2": "", "city": "DAVIS", "state": "CA", "postal_code": "956166201",
+        "telephone_number": "530-758-2060"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "PO BOX 1260", "address_2": "", "city": "DAVIS", "state": "CA", "postal_code":
+        "956171260"}], "taxonomies": [{"code": "367A00000X", "desc": "Advanced Practice
+        Midwife", "primary": true, "state": "CA", "license": "CNM1047"}], "identifiers":
+        []},{"enumeration_type": "NPI-1", "number": 1952960304, "last_updated_epoch":
+        1560179297, "created_epoch": 1560124800, "basic": {"first_name": "KATRINA",
+        "last_name": "KEMP", "middle_name": "DANIELLE", "credential": "CNM", "sole_proprietor":
+        "NO", "gender": "F", "enumeration_date": "2019-06-10", "last_updated": "2019-06-10",
+        "status": "A", "name": "KEMP KATRINA"}, "other_names": [], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "122 FECHET DR", "address_2": "", "city": "BILOXI", "state":
+        "MS", "postal_code": "395312663", "telephone_number": "509-554-2385"}, {"country_code":
+        "US", "country_name": "United States", "address_purpose": "MAILING", "address_type":
+        "DOM", "address_1": "122 FECHET DR", "address_2": "", "city": "BILOXI", "state":
+        "MS", "postal_code": "395312663", "telephone_number": "509-554-2385"}], "taxonomies":
+        [{"code": "367A00000X", "desc": "Advanced Practice Midwife", "primary": true,
+        "state": "MS", "license": "899575"}], "identifiers": []},{"enumeration_type":
+        "NPI-1", "number": 1215599055, "last_updated_epoch": 1563369577, "created_epoch":
+        1562025600, "basic": {"first_name": "BRITTANY", "last_name": "KEMP", "credential":
+        "CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date": "2019-07-02",
+        "last_updated": "2019-07-17", "status": "A", "name": "KEMP BRITTANY"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "MEDICAL
+        CENTER BLVD", "address_2": "", "city": "WINSTON SALEM", "state": "NC", "postal_code":
+        "271573006", "telephone_number": "336-716-2255"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "597 N FRANKLIN RD", "address_2": "", "city": "MOUNT AIRY", "state": "NC",
+        "postal_code": "270302726"}], "taxonomies": [{"code": "176B00000X", "desc":
+        "Midwife", "primary": false, "state": "", "license": ""}, {"code": "367A00000X",
+        "desc": "Advanced Practice Midwife", "primary": true, "state": "NC", "license":
+        "736"}], "identifiers": [], "practiceLocations": [{"address_type": "DOM",
+        "address_1": "1200 N MARTIN LUTHER KING JR DR", "address_2": "", "city": "WINSTON
+        SALEM", "state": "NC", "postal_code": "271013006", "country_code": "US", "country_name":
+        "United States", "telephone_number": "336-713-9800", "update_date": "2019-07-17
+        13:07"}]}]}'
+  recorded_at: Sat, 18 Dec 2021 22:11:22 GMT
+recorded_with: VCR 6.0.0
