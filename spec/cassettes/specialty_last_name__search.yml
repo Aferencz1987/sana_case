@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://npiregistry.cms.hhs.gov/api/?last_name=kemp&taxonomy_description=midwife&version=2.1
+    uri: https://npiregistry.cms.hhs.gov/api/?last_name=Kemp&taxonomy_description=midwife&version=2.1
     body:
       encoding: US-ASCII
       string: ''
@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 18 Dec 2021 22:11:22 GMT
+      - Mon, 20 Dec 2021 21:03:54 GMT
       Content-Type:
       - application/json
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains
       Set-Cookie:
-      - TS017b4e40=01cffab1d39de14c816a2d869862436f7200f337e50d660a8de84a74386ce66c6a2cbcc3b30d4b6b773132861beae20f3a169aaf85;
+      - TS017b4e40=01cffab1d3365bf0e6f7024fe5cc3de3d27acc51cb6880d37fcd2a056bc073f9e3f1911f90b39ba010e627a973e6381e05a22bccfb;
         Path=/; Domain=.npiregistry.cms.hhs.gov
       Transfer-Encoding:
       - chunked
@@ -90,5 +90,5 @@ http_interactions:
         SALEM", "state": "NC", "postal_code": "271013006", "country_code": "US", "country_name":
         "United States", "telephone_number": "336-713-9800", "update_date": "2019-07-17
         13:07"}]}]}'
-  recorded_at: Sat, 18 Dec 2021 22:11:22 GMT
+  recorded_at: Mon, 20 Dec 2021 21:03:54 GMT
 recorded_with: VCR 6.0.0

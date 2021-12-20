@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://npiregistry.cms.hhs.gov/api/?first_name=Kemp&last_name=Laura&version=2.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 20 Dec 2021 21:03:53 GMT
+      Content-Type:
+      - application/json
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Set-Cookie:
+      - TS017b4e40=01cffab1d3b7fdf22a229638c11ea83d28bf7403404c3fb6f70bc6fc578ce91b87bc0ee681e3003ef10a26126e6bbf4ad4846cf7d7;
+        Path=/; Domain=.npiregistry.cms.hhs.gov
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"result_count":0, "results":[]}'
+  recorded_at: Mon, 20 Dec 2021 21:03:53 GMT
+recorded_with: VCR 6.0.0
