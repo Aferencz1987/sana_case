@@ -1,0 +1,16 @@
+<h1> Results </h1>
+  <% @providers.each do |provider| %>
+    <h3><%= provider.specialty %></h3>
+      <ul>
+        <li><b>Last Name: </b><%= provider.last_name %></li>
+        <li><b>First Name: </b><%= provider.first_name %></li>
+        <li><b>NPI number: </b><%= provider.npi_number %></li>
+        <li><b>Addresses: </b><% provider.address_list.each do |address| %></li>
+        <ul>
+            <br> <%= address[:address_1] %> <%= address[:address_2] %>
+            <br> <%= address[:city] %>, <%= address[:state] %>
+          </ul>
+          <% end %>
+      </ul>
+    <br>
+    <% end %>

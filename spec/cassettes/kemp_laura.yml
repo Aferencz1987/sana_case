@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 20 Dec 2021 22:43:38 GMT
+      - Mon, 20 Dec 2021 22:42:25 GMT
       Content-Type:
       - application/json
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains
       Set-Cookie:
-      - TS017b4e40=01cffab1d3daa38028010fe7e486d6491d0be838c591738a180fcda6b758bd945e2f33b1223c1aeba032e3955403e7216a1486333e;
+      - TS017b4e40=01cffab1d35bb489460477ac10d24c8e5575c545b82d4217f444f839ed4d90bc0e120a4efe0e6749dd3af79b1ba53aa1f1f6ecdaf5;
         Path=/; Domain=.npiregistry.cms.hhs.gov
       Transfer-Encoding:
       - chunked
@@ -106,5 +106,5 @@ http_interactions:
         "TX", "postal_code": "761357020"}], "taxonomies": [{"code": "1041C0700X",
         "desc": "Social Worker Clinical", "primary": true, "state": "TX", "license":
         "63649"}], "identifiers": []}]}'
-  recorded_at: Mon, 20 Dec 2021 22:43:38 GMT
+  recorded_at: Mon, 20 Dec 2021 22:42:25 GMT
 recorded_with: VCR 6.0.0

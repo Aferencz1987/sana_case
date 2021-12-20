@@ -5,7 +5,7 @@ class ProviderSearchService
       search_result = JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.first_last_name(first_name, last_name)
+  def self.first_last_name(last_name, first_name)
     response = conn.get "?first_name=#{first_name}&last_name=#{last_name}&version=2.1"
       search_result = JSON.parse(response.body, symbolize_names: true)
   end

@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 20 Dec 2021 22:43:39 GMT
+      - Mon, 20 Dec 2021 22:42:23 GMT
       Content-Type:
       - application/json
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains
       Set-Cookie:
-      - TS017b4e40=01cffab1d3aadd6e582e06b1ef69d0d19a965240f2686ed817ba8a5d3eab0e2f5941bc7c50f4cbd82c0a343bede9241cfdb21c2125;
+      - TS017b4e40=01cffab1d3d6d5a6504e4b6e02b6943012c7864b8a77e3c55def50e02e981e2928a1fcf1057560d52d9780cc174f1269211342c432;
         Path=/; Domain=.npiregistry.cms.hhs.gov
       Transfer-Encoding:
       - chunked
@@ -90,5 +90,5 @@ http_interactions:
         SALEM", "state": "NC", "postal_code": "271013006", "country_code": "US", "country_name":
         "United States", "telephone_number": "336-713-9800", "update_date": "2019-07-17
         13:07"}]}]}'
-  recorded_at: Mon, 20 Dec 2021 22:43:39 GMT
+  recorded_at: Mon, 20 Dec 2021 22:42:22 GMT
 recorded_with: VCR 6.0.0

@@ -17,7 +17,7 @@ RSpec.describe 'NPPES NPI registry api' do
 
     it 'returns information based on last name and first name' do
       VCR.use_cassette 'kemp_laura' do
-        result = ProviderSearchService.first_last_name('laura', 'kemp')
+        result = ProviderSearchService.first_last_name('kemp', 'laura')
 
         expect(result[:results][0]).to have_key(:basic)
         expect(result[:results][0]).to have_key(:number)
