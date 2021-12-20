@@ -3,7 +3,7 @@
 <h3> Search options </h3>
 <h4> Last Name and State </h4>
     <%= form_with url: '/providers#index', method: :get, local: true do |f| %>
-      <%= f.label :last_name_1, "Medical Provider's Last Name 1" %><br>
+      <%= f.label :last_name_1, "Medical Provider's Last Name" %><br>
       <%= f.text_field :last_name_1 %><br>
       <%= f.label :state, "State" %><br>
       <%= f.text_field :state %><br>
@@ -14,7 +14,7 @@
 
 <h4> First and Last Name </h4>
   <%= form_with url: '/providers#index', method: :get, local: true do |f| %>
-  <%= f.label :last_name_2, "Medical Provider's Last Name 2" %><br>
+  <%= f.label :last_name_2, "Medical Provider's Last Name" %><br>
   <%= f.text_field :last_name_2 %><br>
     <%= f.label :first_name, "Medical Provider's First Name" %><br>
     <%= f.text_field :first_name %><br>
@@ -23,7 +23,7 @@
 <br><br>
 <h4> Last Name and Specialty </h4>
   <%= form_with url: '/providers#index', method: :get, local: true do |f| %>
-    <%= f.label :last_name_3, "Medical Provider's Last Name 3" %><br>
+    <%= f.label :last_name_3, "Medical Provider's Last Name" %><br>
     <%= f.text_field :last_name_3 %><br>
     <%= f.label :specialty, "Medical Provider's Specialty" %><br>
     <%= f.text_field :specialty %><br>
