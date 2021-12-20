@@ -21,8 +21,8 @@ class ProviderSearchFacade
     end
   end
 
-  def  self.first_name_last_name(first_name, last_name)
-    provider_response = ProviderSearchService.first_last_name(first_name, last_name)
+  def  self.first_name_last_name(last_name, first_name)
+    provider_response = ProviderSearchService.first_last_name(last_name, first_name)
     provider_response[:results].map do |provider_info|
       attributes =
       {

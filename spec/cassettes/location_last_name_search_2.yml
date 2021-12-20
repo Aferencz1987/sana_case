@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://npiregistry.cms.hhs.gov/api/?last_name=kemp&state=co&version=2.1
+    uri: https://npiregistry.cms.hhs.gov/api/?last_name=Kemp&state=co&version=2.1
     body:
       encoding: US-ASCII
       string: ''
@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 20 Dec 2021 22:43:38 GMT
+      - Mon, 20 Dec 2021 22:47:52 GMT
       Content-Type:
       - application/json
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains
       Set-Cookie:
-      - TS017b4e40=01cffab1d3cc4b4409b6c848793fdd716bea1789ef087e107f3f0a8d9e6dcd49647c56d0a849a7bf60cffe4bece4dd767832fde7b2;
+      - TS017b4e40=01cffab1d33db23232593ab3476be57ac1cd6d4bd10569f92c152528fec5fab43fca6c62d8a30097b5e5196ff7227c99993489bad8;
         Path=/; Domain=.npiregistry.cms.hhs.gov
       Transfer-Encoding:
       - chunked
@@ -185,5 +185,5 @@ http_interactions:
         "code": "01", "desc": "Other", "state": "CO", "issuer": "RAILROAD MEDICARE"},
         {"identifier": "567073", "code": "05", "desc": "MEDICAID", "state": "AZ",
         "issuer": ""}]}]}'
-  recorded_at: Mon, 20 Dec 2021 22:43:38 GMT
+  recorded_at: Mon, 20 Dec 2021 22:47:52 GMT
 recorded_with: VCR 6.0.0
