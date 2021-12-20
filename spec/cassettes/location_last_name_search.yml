@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://npiregistry.cms.hhs.gov/api/?last_name=kemp&state=co&version=2.1
+    uri: https://npiregistry.cms.hhs.gov/api/?last_name=Kemp&state=co&version=2.1
     body:
       encoding: US-ASCII
       string: ''
@@ -19,90 +19,72 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 18 Dec 2021 20:45:19 GMT
+      - Mon, 20 Dec 2021 21:03:53 GMT
       Content-Type:
       - application/json
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains
       Set-Cookie:
-      - TS017b4e40=01cffab1d3816d80078e400f3261e13f1104748175fe1d439733382d5844c15463afd242f012c6f8872dca6875e4c77117ae1cfde2;
+      - TS017b4e40=01cffab1d32d1aa7de8df796000eb33da8218db5fcf39c326ff971b62bac91dc8192139664faaad29842a4e7912198e2d0fa480d8a;
         Path=/; Domain=.npiregistry.cms.hhs.gov
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"result_count":10, "results":[{"enumeration_type": "NPI-1", "number":
-        1376852921, "last_updated_epoch": 1571673471, "created_epoch": 1285804800,
-        "basic": {"first_name": "RYAN", "last_name": "KEMP", "middle_name": "A", "sole_proprietor":
-        "NO", "gender": "M", "enumeration_date": "2010-09-30", "last_updated": "2019-10-21",
-        "status": "A", "name": "KEMP RYAN"}, "other_names": [{"code": "2", "type":
-        "Professional Name", "last_name": "KEMP", "first_name": "RYAN", "middle_name":
-        "A.", "credential": "PA"}], "addresses": [{"country_code": "US", "country_name":
-        "United States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
-        "1601 E 19TH AVE STE 5100", "address_2": "", "city": "DENVER", "state": "CO",
-        "postal_code": "802181254", "telephone_number": "303-228-1240", "fax_number":
-        "303-306-7753"}, {"country_code": "US", "country_name": "United States", "address_purpose":
-        "MAILING", "address_type": "DOM", "address_1": "PO BOX 173862", "address_2":
-        "", "city": "DENVER", "state": "CO", "postal_code": "802173862", "telephone_number":
-        "303-306-7783", "fax_number": "303-306-7753"}], "taxonomies": [{"code": "363A00000X",
-        "desc": "Physician Assistant", "primary": false, "state": "AZ", "license":
-        "4700"}, {"code": "363A00000X", "desc": "Physician Assistant", "primary":
-        true, "state": "CO", "license": "PA.0003710"}], "identifiers": [{"identifier":
-        "30427576", "code": "05", "desc": "MEDICAID", "state": "CO", "issuer": ""},
-        {"identifier": "P01268756", "code": "01", "desc": "Other", "state": "CO",
-        "issuer": "RAILROAD MEDICARE"}]},{"enumeration_type": "NPI-1", "number": 1023122447,
-        "last_updated_epoch": 1183852800, "created_epoch": 1155945600, "basic": {"name_prefix":
-        "DR.", "first_name": "JOHN", "last_name": "KEMP", "middle_name": "E", "credential":
-        "MD", "sole_proprietor": "NO", "gender": "M", "enumeration_date": "2006-08-19",
-        "last_updated": "2007-07-08", "status": "A", "name": "KEMP JOHN"}, "other_names":
-        [], "addresses": [{"country_code": "US", "country_name": "United States",
-        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "7720 S
-        BROADWAY", "address_2": "STE 590", "city": "LITTLETON", "state": "CO", "postal_code":
-        "801222632", "telephone_number": "720-283-3886", "fax_number": "720-283-8229"},
-        {"country_code": "US", "country_name": "United States", "address_purpose":
-        "MAILING", "address_type": "DOM", "address_1": "7720 S BROADWAY", "address_2":
-        "STE 590", "city": "LITTLETON", "state": "CO", "postal_code": "801222632",
-        "telephone_number": "720-283-3886", "fax_number": "720-283-8229"}], "taxonomies":
-        [{"code": "207X00000X", "desc": "Orthopaedic Surgery", "primary": true, "state":
-        "CO", "license": "28229"}], "identifiers": []},{"enumeration_type": "NPI-1",
-        "number": 1821164674, "last_updated_epoch": 1183852800, "created_epoch": 1164326400,
-        "basic": {"name_prefix": "MR.", "first_name": "TODD", "last_name": "KEMP",
-        "middle_name": "ALLEN", "credential": "LPC", "sole_proprietor": "NO", "gender":
-        "M", "enumeration_date": "2006-11-24", "last_updated": "2007-07-08", "status":
-        "A", "name": "KEMP TODD"}, "other_names": [], "addresses": [{"country_code":
+        1023122447, "last_updated_epoch": 1183852800, "created_epoch": 1155945600,
+        "basic": {"name_prefix": "DR.", "first_name": "JOHN", "last_name": "KEMP",
+        "middle_name": "E", "credential": "MD", "sole_proprietor": "NO", "gender":
+        "M", "enumeration_date": "2006-08-19", "last_updated": "2007-07-08", "status":
+        "A", "name": "KEMP JOHN"}, "other_names": [], "addresses": [{"country_code":
         "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
-        "DOM", "address_1": "2465 S DOWNING ST", "address_2": "SUITE 110", "city":
-        "DENVER", "state": "CO", "postal_code": "802105822", "telephone_number": "303-778-5774",
-        "fax_number": "303-778-2436"}, {"country_code": "US", "country_name": "United
+        "DOM", "address_1": "7720 S BROADWAY", "address_2": "STE 590", "city": "LITTLETON",
+        "state": "CO", "postal_code": "801222632", "telephone_number": "720-283-3886",
+        "fax_number": "720-283-8229"}, {"country_code": "US", "country_name": "United
         States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
-        "12242 W NEW MEXICO AVE", "address_2": "", "city": "LAKEWOOD", "state": "CO",
-        "postal_code": "802283928", "telephone_number": "303-980-8263"}], "taxonomies":
-        [{"code": "101YP2500X", "desc": "Counselor Professional", "primary": true,
-        "state": "CO", "license": "1620"}], "identifiers": [{"identifier": "1620",
-        "code": "01", "desc": "Other", "state": "CO", "issuer": "LPC LICENSE"}]},{"enumeration_type":
-        "NPI-1", "number": 1942429956, "last_updated_epoch": 1375315200, "created_epoch":
-        1177459200, "basic": {"name_prefix": "DR.", "first_name": "CHRISTOPHER", "last_name":
-        "KEMP", "middle_name": "F", "credential": "DDS", "sole_proprietor": "NO",
-        "gender": "M", "enumeration_date": "2007-04-25", "last_updated": "2013-08-01",
-        "status": "A", "name": "KEMP CHRISTOPHER"}, "other_names": [], "addresses":
-        [{"country_code": "US", "country_name": "United States", "address_purpose":
-        "LOCATION", "address_type": "DOM", "address_1": "805 S BROADWAY ST STE 205",
+        "7720 S BROADWAY", "address_2": "STE 590", "city": "LITTLETON", "state": "CO",
+        "postal_code": "801222632", "telephone_number": "720-283-3886", "fax_number":
+        "720-283-8229"}], "taxonomies": [{"code": "207X00000X", "desc": "Orthopaedic
+        Surgery", "primary": true, "state": "CO", "license": "28229"}], "identifiers":
+        []},{"enumeration_type": "NPI-1", "number": 1821164674, "last_updated_epoch":
+        1183852800, "created_epoch": 1164326400, "basic": {"name_prefix": "MR.", "first_name":
+        "TODD", "last_name": "KEMP", "middle_name": "ALLEN", "credential": "LPC",
+        "sole_proprietor": "NO", "gender": "M", "enumeration_date": "2006-11-24",
+        "last_updated": "2007-07-08", "status": "A", "name": "KEMP TODD"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "2465 S
+        DOWNING ST", "address_2": "SUITE 110", "city": "DENVER", "state": "CO", "postal_code":
+        "802105822", "telephone_number": "303-778-5774", "fax_number": "303-778-2436"},
+        {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "12242 W NEW MEXICO AVE", "address_2":
+        "", "city": "LAKEWOOD", "state": "CO", "postal_code": "802283928", "telephone_number":
+        "303-980-8263"}], "taxonomies": [{"code": "101YP2500X", "desc": "Counselor
+        Professional", "primary": true, "state": "CO", "license": "1620"}], "identifiers":
+        [{"identifier": "1620", "code": "01", "desc": "Other", "state": "CO", "issuer":
+        "LPC LICENSE"}]},{"enumeration_type": "NPI-1", "number": 1942429956, "last_updated_epoch":
+        1375315200, "created_epoch": 1177459200, "basic": {"name_prefix": "DR.", "first_name":
+        "CHRISTOPHER", "last_name": "KEMP", "middle_name": "F", "credential": "DDS",
+        "sole_proprietor": "NO", "gender": "M", "enumeration_date": "2007-04-25",
+        "last_updated": "2013-08-01", "status": "A", "name": "KEMP CHRISTOPHER"},
+        "other_names": [], "addresses": [{"country_code": "US", "country_name": "United
+        States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "805 S BROADWAY ST STE 205", "address_2": "", "city": "BOULDER", "state":
+        "CO", "postal_code": "803055972", "telephone_number": "303-543-7615", "fax_number":
+        "303-543-8432"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "805 S BROADWAY ST STE 205",
         "address_2": "", "city": "BOULDER", "state": "CO", "postal_code": "803055972",
-        "telephone_number": "303-543-7615", "fax_number": "303-543-8432"}, {"country_code":
-        "US", "country_name": "United States", "address_purpose": "MAILING", "address_type":
-        "DOM", "address_1": "805 S BROADWAY ST STE 205", "address_2": "", "city":
-        "BOULDER", "state": "CO", "postal_code": "803055972", "telephone_number":
-        "303-543-7615", "fax_number": "303-543-8432"}], "taxonomies": [{"code": "1223G0001X",
-        "desc": "Dentist General Practice", "primary": false, "state": "ND", "license":
-        "1825"}, {"code": "1223G0001X", "desc": "Dentist General Practice", "primary":
-        true, "state": "CO", "license": "DEN.00201941"}], "identifiers": [{"identifier":
-        "110585", "code": "05", "desc": "MEDICAID", "state": "MT", "issuer": ""},
-        {"identifier": "40732", "code": "05", "desc": "MEDICAID", "state": "ND", "issuer":
-        ""}]},{"enumeration_type": "NPI-1", "number": 1952586919, "last_updated_epoch":
-        1486141347, "created_epoch": 1199750400, "basic": {"name_prefix": "MS.", "first_name":
-        "SARA", "last_name": "KEMP", "middle_name": "V", "credential": "LPC", "sole_proprietor":
-        "YES", "gender": "F", "enumeration_date": "2008-01-08", "last_updated": "2017-02-03",
-        "status": "A", "name": "KEMP SARA"}, "other_names": [], "addresses": [{"country_code":
+        "telephone_number": "303-543-7615", "fax_number": "303-543-8432"}], "taxonomies":
+        [{"code": "1223G0001X", "desc": "Dentist General Practice", "primary": false,
+        "state": "ND", "license": "1825"}, {"code": "1223G0001X", "desc": "Dentist
+        General Practice", "primary": true, "state": "CO", "license": "DEN.00201941"}],
+        "identifiers": [{"identifier": "110585", "code": "05", "desc": "MEDICAID",
+        "state": "MT", "issuer": ""}, {"identifier": "40732", "code": "05", "desc":
+        "MEDICAID", "state": "ND", "issuer": ""}]},{"enumeration_type": "NPI-1", "number":
+        1952586919, "last_updated_epoch": 1486141347, "created_epoch": 1199750400,
+        "basic": {"name_prefix": "MS.", "first_name": "SARA", "last_name": "KEMP",
+        "middle_name": "V", "credential": "LPC", "sole_proprietor": "YES", "gender":
+        "F", "enumeration_date": "2008-01-08", "last_updated": "2017-02-03", "status":
+        "A", "name": "KEMP SARA"}, "other_names": [], "addresses": [{"country_code":
         "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
         "DOM", "address_1": "6505 S ROUTT ST", "address_2": "", "city": "LITTLETON",
         "state": "CO", "postal_code": "801275852", "telephone_number": "301-676-5004"},
@@ -184,6 +166,18 @@ http_interactions:
         "05", "desc": "MEDICAID", "state": "CO", "issuer": ""}, {"identifier": "P01330330",
         "code": "01", "desc": "Other", "state": "CO", "issuer": "RAILROAD MEDICARE"},
         {"identifier": "567073", "code": "05", "desc": "MEDICAID", "state": "AZ",
-        "issuer": ""}]}]}'
-  recorded_at: Sat, 18 Dec 2021 20:45:19 GMT
+        "issuer": ""}]},{"enumeration_type": "NPI-1", "number": 1174036198, "last_updated_epoch":
+        1510531200, "created_epoch": 1510531200, "basic": {"first_name": "PAMELA",
+        "last_name": "KEMP", "credential": "M.ED., NCC", "sole_proprietor": "NO",
+        "gender": "F", "enumeration_date": "2017-11-13", "last_updated": "2017-11-13",
+        "status": "A", "name": "KEMP PAMELA"}, "other_names": [], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "151 W LAKE ST", "address_2": "", "city": "FORT COLLINS",
+        "state": "CO", "postal_code": "805244111", "telephone_number": "970-491-6053"},
+        {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "2708 BIANCO DR", "address_2":
+        "", "city": "FORT COLLINS", "state": "CO", "postal_code": "805214916"}], "taxonomies":
+        [{"code": "101Y00000X", "desc": "Counselor", "primary": true, "state": "CO",
+        "license": "NLC.0108077"}], "identifiers": []}]}'
+  recorded_at: Mon, 20 Dec 2021 21:03:53 GMT
 recorded_with: VCR 6.0.0
