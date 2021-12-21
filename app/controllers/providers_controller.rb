@@ -5,7 +5,6 @@ class ProvidersController < ApplicationController
     # length = params[:state].length
     #   state_abbreviation = state_name_conversion(params[:state]) if length > 2
     #   state_abbreviation = params[:state] if length <= 2
-
     if params[:commit] == "Search by Last Name and Location"
       length = params[:state].length
         state_abbreviation = state_name_conversion(params[:state]) if length > 2

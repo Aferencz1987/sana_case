@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://npiregistry.cms.hhs.gov/api/?last_name=Kemp&state=co&version=2.1
+    uri: https://npiregistry.cms.hhs.gov/api/?last_name=kemp&state=co&version=2.1
     body:
       encoding: US-ASCII
       string: ''
@@ -19,13 +19,13 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 21 Dec 2021 21:50:08 GMT
+      - Tue, 21 Dec 2021 22:12:30 GMT
       Content-Type:
       - application/json
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains
       Set-Cookie:
-      - TS017b4e40=01cffab1d379b5fed67f2c9e5423633150ac9f238fd6a0e4fc4c32ef600af6651383c1c8e6d8c037e318172e6ea916915750fa83d5;
+      - TS017b4e40=01cffab1d330a295bfa72b36f9fa0a842570a97374493c0bbfdace06ff608005746108cae3a766686d635139a446daaa4caaa714a6;
         Path=/; Domain=.npiregistry.cms.hhs.gov
       Transfer-Encoding:
       - chunked
@@ -179,5 +179,5 @@ http_interactions:
         "", "city": "FORT COLLINS", "state": "CO", "postal_code": "805214916"}], "taxonomies":
         [{"code": "101Y00000X", "desc": "Counselor", "primary": true, "state": "CO",
         "license": "NLC.0108077"}], "identifiers": []}]}'
-  recorded_at: Tue, 21 Dec 2021 21:50:08 GMT
+  recorded_at: Tue, 21 Dec 2021 22:12:30 GMT
 recorded_with: VCR 6.0.0
