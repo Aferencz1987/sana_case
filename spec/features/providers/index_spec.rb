@@ -22,7 +22,6 @@ RSpec.describe "provider page" do
         fill_in(:first_name, :with => 'laura')
         click_button("Search by Full Name")
 
-        save_and_open_page
         expect(page).to have_content(/kemp/i)
         expect(page).to have_content("Results")
       end

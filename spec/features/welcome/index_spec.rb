@@ -6,6 +6,7 @@ RSpec.describe "Welcome page" do
       visit '/'
       expect(page).to have_content("Welcome to med search")
       expect(page).to have_field("Medical Provider's First Name")
+      save_and_open_page
     end
   end
   describe 'provider searches' do
