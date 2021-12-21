@@ -1,4 +1,4 @@
-<h1> Welcome to med search </h1>
+<h1> Welcome to Med Search </h1>
 <br>
 <h3> Search options </h3>
 <h4> Last Name and State </h4>
@@ -20,7 +20,7 @@
     <%= f.text_field :first_name %><br>
     <%= f.submit "Search by Full Name" %><br>
   <% end %>
-<br><br>
+<!-- <br><br>
 <h4> Last Name and Specialty </h4>
   <%= form_with url: '/providers#index', method: :get, local: true do |f| %>
     <%= f.label :last_name_3, "Medical Provider's Last Name" %><br>
@@ -28,4 +28,13 @@
     <%= f.label :specialty, "Medical Provider's Specialty" %><br>
     <%= f.text_field :specialty %><br>
     <%= f.submit "Search by Specialty" %>
-  <% end %>
+  <% end %> -->
+  <br><br>
+  <h4> State and Specialty </h4>
+    <%= form_with url: '/providers#index', method: :get, local: true do |f| %>
+      <%= f.label :state_2, "State" %><br>
+      <%= f.text_field :state_2 %><br>
+      <%= f.label :specialty, "Medical Provider's Specialty" %><br>
+      <%= f.text_field :specialty %><br>
+      <%= f.submit "Search by Specialty" %>
+    <% end %>

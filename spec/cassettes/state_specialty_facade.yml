@@ -1,0 +1,237 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://npiregistry.cms.hhs.gov/api/?state=co&taxonomy_description=midwife&version=2.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 21:37:29 GMT
+      Content-Type:
+      - application/json
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Set-Cookie:
+      - TS017b4e40=01cffab1d32f57418417285bb973488e666d1ac4906fca1a3cc9da9d5159d55150e2b99178a88370f08debcc5abb50aa1a31260293;
+        Path=/; Domain=.npiregistry.cms.hhs.gov
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"result_count":10, "results":[{"enumeration_type": "NPI-1", "number":
+        1821049388, "last_updated_epoch": 1531737782, "created_epoch": 1147392000,
+        "basic": {"name_prefix": "MS.", "first_name": "KAREN", "last_name": "BROWN",
+        "middle_name": "RUBY", "credential": "MSN, CNM", "sole_proprietor": "NO",
+        "gender": "F", "enumeration_date": "2006-05-12", "last_updated": "2018-07-16",
+        "status": "A", "name": "BROWN KAREN"}, "other_names": [], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "3292 PEORIA ST", "address_2": "", "city": "AURORA", "state":
+        "CO", "postal_code": "80010", "telephone_number": "303-360-6276"}, {"country_code":
+        "US", "country_name": "United States", "address_purpose": "MAILING", "address_type":
+        "DOM", "address_1": "3701 S BROADWAY", "address_2": "", "city": "ENGLEWOOD",
+        "state": "CO", "postal_code": "801133611", "telephone_number": "303-360-6276",
+        "fax_number": "303-467-5350"}], "taxonomies": [{"code": "163W00000X", "desc":
+        "Registered Nurse", "primary": false, "state": "CO", "license": "RN.1655405"},
+        {"code": "367A00000X", "desc": "Advanced Practice Midwife", "primary": true,
+        "state": "CO", "license": "APN.0993949-CNM"}, {"code": "367A00000X", "desc":
+        "Advanced Practice Midwife", "primary": false, "state": "CA", "license": "NMW1632"}],
+        "identifiers": [{"identifier": "NMW016320", "code": "05", "desc": "MEDICAID",
+        "state": "CA", "issuer": ""}], "practiceLocations": [{"address_type": "DOM",
+        "address_1": "7777 W 38TH AVE UNIT A130", "address_2": "", "city": "WHEAT
+        RIDGE", "state": "CO", "postal_code": "800336175", "country_code": "US", "country_name":
+        "United States", "fax_number": "888-362-0686", "telephone_number": "720-418-8186",
+        "update_date": "2018-03-18 18:03"}]},{"enumeration_type": "NPI-1", "number":
+        1619935996, "last_updated_epoch": 1536053679, "created_epoch": 1146614400,
+        "basic": {"name_prefix": "MS.", "first_name": "CAROLYN", "last_name": "BOTTONE-POST",
+        "middle_name": "LOUISE", "credential": "CNM", "sole_proprietor": "NO", "gender":
+        "F", "enumeration_date": "2006-05-03", "last_updated": "2018-09-04", "status":
+        "A", "name": "BOTTONE-POST CAROLYN"}, "other_names": [], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "1010 A ST", "address_2": "", "city": "GREELEY", "state":
+        "CO", "postal_code": "806312021", "telephone_number": "970-313-0400", "fax_number":
+        "970-313-0404"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "777 BANNOCK ST", "address_2":
+        "MC 0243", "city": "DENVER", "state": "CO", "postal_code": "802044507", "telephone_number":
+        "303-602-9138"}], "taxonomies": [{"code": "367A00000X", "desc": "Advanced
+        Practice Midwife", "primary": true, "state": "CO", "license": "CNM-1549"}],
+        "identifiers": [], "practiceLocations": [{"address_type": "DOM", "address_1":
+        "777 BANNOCK ST", "address_2": "MC 0243", "city": "DENVER", "state": "CO",
+        "postal_code": "802044507", "country_code": "US", "country_name": "United
+        States", "telephone_number": "303-602-9138", "update_date": "2018-08-30 18:08"}]},{"enumeration_type":
+        "NPI-1", "number": 1891721437, "last_updated_epoch": 1521244800, "created_epoch":
+        1151107200, "basic": {"first_name": "LYNN", "last_name": "LEYBA", "middle_name":
+        "R", "credential": "NP, CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date":
+        "2006-06-24", "last_updated": "2018-03-17", "status": "A", "name": "LEYBA
+        LYNN"}, "other_names": [], "addresses": [{"country_code": "US", "country_name":
+        "United States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "1008 N GRAND AVE", "address_2": "", "city": "PUEBLO", "state": "CO", "postal_code":
+        "810032916", "telephone_number": "719-543-8711"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "110 E ROUTT AVE", "address_2": "", "city": "PUEBLO", "state": "CO", "postal_code":
+        "810042117", "telephone_number": "#(719) 543-8711", "fax_number": "719-543-5340"}],
+        "taxonomies": [{"code": "364SF0001X", "desc": "Clinical Nurse Specialist Family
+        Health", "primary": true, "state": "CO", "license": "APN.0990713-NP"}, {"code":
+        "367A00000X", "desc": "Advanced Practice Midwife", "primary": false, "state":
+        "CO", "license": "119829"}], "identifiers": [{"identifier": "311836YLQP",
+        "code": "01", "desc": "Other", "state": "CO", "issuer": "MEDICARE PTAN"},
+        {"identifier": "02455340", "code": "05", "desc": "MEDICAID", "state": "CO",
+        "issuer": ""}], "practiceLocations": [{"address_type": "DOM", "address_1":
+        "300 COLORADO AVE", "address_2": "", "city": "PUEBLO", "state": "CO", "postal_code":
+        "810042006", "country_code": "US", "country_name": "United States", "fax_number":
+        "719-543-5340", "telephone_number": "719-543-8711", "update_date": "2017-06-28
+        11:38"}]},{"enumeration_type": "NPI-1", "number": 1558392928, "last_updated_epoch":
+        1525824000, "created_epoch": 1152057600, "basic": {"first_name": "DEBRA",
+        "last_name": "CHAPMAN", "middle_name": "J", "credential": "CNM", "sole_proprietor":
+        "NO", "gender": "F", "enumeration_date": "2006-07-05", "last_updated": "2018-05-09",
+        "status": "A", "name": "CHAPMAN DEBRA"}, "other_names": [], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "715 S 3RD ST", "address_2": "", "city": "MONTROSE", "state":
+        "CO", "postal_code": "814014209", "telephone_number": "970-249-6737", "fax_number":
+        "970-252-0112"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "715 S 3RD ST", "address_2":
+        "", "city": "MONTROSE", "state": "CO", "postal_code": "814014209", "telephone_number":
+        "970-249-6737", "fax_number": "970-252-0112"}], "taxonomies": [{"code": "367A00000X",
+        "desc": "Advanced Practice Midwife", "primary": true, "state": "CO", "license":
+        "5051"}, {"code": "367A00000X", "desc": "Advanced Practice Midwife", "primary":
+        false, "state": "KS", "license": "64065"}], "identifiers": [{"identifier":
+        "100404540A", "code": "05", "desc": "MEDICAID", "state": "KS", "issuer": ""},
+        {"identifier": "29922356", "code": "05", "desc": "MEDICAID", "state": "CO",
+        "issuer": ""}], "practiceLocations": [{"address_type": "DOM", "address_1":
+        "715 S 3RD ST", "address_2": "", "city": "MONTROSE", "state": "CO", "postal_code":
+        "814014209", "country_code": "US", "country_name": "United States", "fax_number":
+        "970-252-0112", "telephone_number": "970-249-6737", "update_date": "2018-05-09
+        15:19"}]},{"enumeration_type": "NPI-1", "number": 1891985255, "last_updated_epoch":
+        1530099887, "created_epoch": 1185840000, "basic": {"first_name": "JULIE",
+        "last_name": "MEASE", "middle_name": "OMAR", "credential": "CNM", "sole_proprietor":
+        "NO", "gender": "F", "enumeration_date": "2007-07-31", "last_updated": "2018-06-27",
+        "status": "A", "name": "MEASE JULIE"}, "other_names": [{"code": "1", "type":
+        "Former Name", "last_name": "OMAR", "first_name": "JULIE"}], "addresses":
+        [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "4123 DUTCHMANS LN", "address_2":
+        "SUITE 601", "city": "LOUISVILLE", "state": "KY", "postal_code": "40207",
+        "telephone_number": "502-423-9595", "fax_number": "502-719-0161"}, {"country_code":
+        "US", "country_name": "United States", "address_purpose": "MAILING", "address_type":
+        "DOM", "address_1": "PO BOX 776351", "address_2": "", "city": "CHICAGO", "state":
+        "IL", "postal_code": "606776351", "telephone_number": "502-588-9490", "fax_number":
+        "502-272-5116"}], "taxonomies": [{"code": "163W00000X", "desc": "Registered
+        Nurse", "primary": false, "state": "IL", "license": "41326189"}, {"code":
+        "367A00000X", "desc": "Advanced Practice Midwife", "primary": false, "state":
+        "CO", "license": "0000640"}, {"code": "367A00000X", "desc": "Advanced Practice
+        Midwife", "primary": true, "state": "KY", "license": "3009747"}], "identifiers":
+        [{"identifier": "0000640", "code": "01", "desc": "Other", "state": "CO", "issuer":
+        "COLO APN-CNM LICENSE"}, {"identifier": "41326189", "code": "01", "desc":
+        "Other", "state": "IL", "issuer": "ILLINOIS RN LICENSE"}], "practiceLocations":
+        [{"address_type": "DOM", "address_1": "1107 S LEMAY AVE STE 300", "address_2":
+        "", "city": "FORT COLLINS", "state": "CO", "postal_code": "805243955", "country_code":
+        "US", "country_name": "United States", "fax_number": "970-493-2990", "telephone_number":
+        "970-493-7442", "update_date": "2018-06-27 11:06"}]},{"enumeration_type":
+        "NPI-1", "number": 1548421555, "last_updated_epoch": 1544980296, "created_epoch":
+        1214179200, "basic": {"name_prefix": "MRS.", "first_name": "KIMBERLY", "last_name":
+        "NEGRETE", "middle_name": "RAE", "credential": "CNM", "sole_proprietor": "NO",
+        "gender": "F", "enumeration_date": "2008-06-23", "last_updated": "2018-12-16",
+        "status": "A", "name": "NEGRETE KIMBERLY"}, "other_names": [], "addresses":
+        [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "1715 61ST AVE", "address_2":
+        "", "city": "GREELEY", "state": "CO", "postal_code": "80634", "telephone_number":
+        "970-336-1500", "fax_number": "970-336-1505"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "1647 E 18TH ST", "address_2": "", "city": "LOVELAND", "state": "CO", "postal_code":
+        "805384209", "telephone_number": "970-820-2009"}], "taxonomies": [{"code":
+        "367A00000X", "desc": "Advanced Practice Midwife", "primary": true, "state":
+        "CO", "license": "APN.0992731-CNM"}], "identifiers": [], "practiceLocations":
+        [{"address_type": "DOM", "address_1": "2500 ROCKY MOUNTAIN AVE STE 2100",
+        "address_2": "", "city": "LOVELAND", "state": "CO", "postal_code": "805389004",
+        "country_code": "US", "country_name": "United States", "fax_number": "970-336-1505",
+        "telephone_number": "970-203-7153", "update_date": "2018-12-16 17:12"}]},{"enumeration_type":
+        "NPI-1", "number": 1891015822, "last_updated_epoch": 1544179113, "created_epoch":
+        1275350400, "basic": {"first_name": "MARY", "last_name": "HUESKE", "middle_name":
+        "KATHLEEN IRENE", "credential": "RN, MSN, CNM", "sole_proprietor": "NO", "gender":
+        "F", "enumeration_date": "2010-06-01", "last_updated": "2018-12-07", "status":
+        "A", "name": "HUESKE MARY"}, "other_names": [], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "777 BANNOCK ST # MC3240", "address_2": "", "city": "DENVER",
+        "state": "CO", "postal_code": "802044507", "telephone_number": "303-602-2718",
+        "fax_number": "303-602-2719"}, {"country_code": "US", "country_name": "United
+        States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "6089 S BEMIS ST", "address_2": "", "city": "LITTLETON", "state": "CO", "postal_code":
+        "801202505", "telephone_number": "303-885-5432"}], "taxonomies": [{"code":
+        "163W00000X", "desc": "Registered Nurse", "primary": false, "state": "CO",
+        "license": "411611"}, {"code": "367A00000X", "desc": "Advanced Practice Midwife",
+        "primary": true, "state": "", "license": "8537"}], "identifiers": [], "practiceLocations":
+        [{"address_type": "DOM", "address_1": "7853 WADSWORTH BLVD", "address_2":
+        "", "city": "ARVADA", "state": "CO", "postal_code": "800032107", "country_code":
+        "US", "country_name": "United States", "fax_number": "303-425-6101", "telephone_number":
+        "303-425-6624", "update_date": "2018-12-07 10:12"}]},{"enumeration_type":
+        "NPI-1", "number": 1528340189, "last_updated_epoch": 1552068443, "created_epoch":
+        1315526400, "basic": {"name_prefix": "MS.", "first_name": "KRISTIN", "last_name":
+        "MONTGOMERY", "middle_name": "DAWN", "credential": "CNM", "sole_proprietor":
+        "YES", "gender": "F", "enumeration_date": "2011-09-09", "last_updated": "2019-03-08",
+        "status": "A", "name": "MONTGOMERY KRISTIN"}, "other_names": [{"code": "1",
+        "type": "Former Name", "last_name": "JAUREGUI", "first_name": "KRISTIN", "middle_name":
+        "DAWN"}], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "1650 COCHRANE
+        CIR", "address_2": "", "city": "FORT CARSON", "state": "CO", "postal_code":
+        "80913", "telephone_number": "719-524-6314"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "1650 COCHRANE CIR", "address_2": "", "city": "FORT CARSON", "state": "CO",
+        "postal_code": "809134613", "telephone_number": "719-524-6314"}], "taxonomies":
+        [{"code": "367A00000X", "desc": "Advanced Practice Midwife", "primary": true,
+        "state": "CO", "license": "0992648-CNM"}], "identifiers": [], "practiceLocations":
+        [{"address_type": "DOM", "address_1": "3480 CENTENNIAL BLVD", "address_2":
+        "", "city": "COLORADO SPRINGS", "state": "CO", "postal_code": "809074087",
+        "country_code": "US", "country_name": "United States", "telephone_number":
+        "719-475-7169", "update_date": "2019-03-08 16:03"}]},{"enumeration_type":
+        "NPI-1", "number": 1992040273, "last_updated_epoch": 1521244800, "created_epoch":
+        1354060800, "basic": {"first_name": "COREY", "last_name": "SNYDER", "credential":
+        "CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date": "2012-11-28",
+        "last_updated": "2018-03-17", "status": "A", "name": "SNYDER COREY"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "9119 W
+        74TH ST STE 300", "address_2": "", "city": "SHAWNEE MISSION", "state": "KS",
+        "postal_code": "662042229", "telephone_number": "913-677-3113", "fax_number":
+        "913-677-4514"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "9119 W 74TH ST STE 300", "address_2":
+        "", "city": "SHAWNEE MISSION", "state": "KS", "postal_code": "662042229",
+        "telephone_number": "913-677-3113", "fax_number": "913-677-4514"}], "taxonomies":
+        [{"code": "367A00000X", "desc": "Advanced Practice Midwife", "primary": true,
+        "state": "KS", "license": "77989"}, {"code": "367A00000X", "desc": "Advanced
+        Practice Midwife", "primary": false, "state": "CO", "license": "APN.0990573-CNM"}],
+        "identifiers": [], "practiceLocations": [{"address_type": "DOM", "address_1":
+        "1260 DOCTORS LN", "address_2": "", "city": "FORT COLLINS", "state": "CO",
+        "postal_code": "805244038", "country_code": "US", "country_name": "United
+        States", "fax_number": "970-493-1586", "telephone_number": "970-493-1865",
+        "update_date": "2018-03-13 15:31"}]},{"enumeration_type": "NPI-1", "number":
+        1770830408, "last_updated_epoch": 1521244800, "created_epoch": 1344816000,
+        "basic": {"name_prefix": "MRS.", "first_name": "KATYA", "last_name": "BRICKMAN",
+        "middle_name": "MONET", "credential": "MSN, CNM", "sole_proprietor": "YES",
+        "gender": "F", "enumeration_date": "2012-08-13", "last_updated": "2018-03-17",
+        "status": "A", "name": "BRICKMAN KATYA"}, "other_names": [], "addresses":
+        [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "503 S 8TH ST", "address_2":
+        "", "city": "GRIFFIN", "state": "GA", "postal_code": "302244211", "telephone_number":
+        "770-227-5505"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "2577 AMELIA AVE", "address_2":
+        "", "city": "DECATUR", "state": "GA", "postal_code": "300323214", "telephone_number":
+        "770-231-4424"}], "taxonomies": [{"code": "163W00000X", "desc": "Registered
+        Nurse", "primary": false, "state": "CO", "license": "0205348"}, {"code": "367A00000X",
+        "desc": "Advanced Practice Midwife", "primary": true, "state": "GA", "license":
+        "RN256354", "taxonomy_group": "193400000X SINGLE SPECIALTY  GROUP"}], "identifiers":
+        [], "practiceLocations": [{"address_type": "DOM", "address_1": "1675 GARDEN
+        OF THE GODS RD", "address_2": "", "city": "COLORADO SPRINGS", "state": "CO",
+        "postal_code": "809079444", "country_code": "US", "country_name": "United
+        States", "telephone_number": "719-578-3242", "update_date": "2018-01-26 06:37"}]}]}'
+  recorded_at: Tue, 21 Dec 2021 21:37:29 GMT
+recorded_with: VCR 6.0.0

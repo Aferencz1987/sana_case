@@ -1,0 +1,209 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://npiregistry.cms.hhs.gov/api/?state=&taxonomy_description=midwife&version=2.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 22:08:42 GMT
+      Content-Type:
+      - application/json
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Set-Cookie:
+      - TS017b4e40=01cffab1d34e67fb3fb87c7abbb6892a35ed9174adf0df3368a47aa627cf76b3b6e6d64cb7495ae4a1a002778bdeb62674a90c220a;
+        Path=/; Domain=.npiregistry.cms.hhs.gov
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"result_count":10, "results":[{"enumeration_type": "NPI-1", "number":
+        1477585230, "last_updated_epoch": 1551699229, "created_epoch": 1152144000,
+        "basic": {"first_name": "REBECCA", "last_name": "DAVIS", "middle_name": "F",
+        "credential": "APRN, CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date":
+        "2006-07-06", "last_updated": "2019-03-04", "status": "A", "name": "DAVIS
+        REBECCA"}, "other_names": [{"code": "1", "type": "Former Name", "last_name":
+        "FLORES", "first_name": "REBECCA", "middle_name": "L.", "credential": "RN"}],
+        "addresses": [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "203 ALLENDALE DR", "address_2":
+        "", "city": "PORT ALLEN", "state": "LA", "postal_code": "707673219", "telephone_number":
+        "225-389-1311", "fax_number": "225-389-1330"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "PO BOX 1158", "address_2": "", "city": "ABBEVILLE", "state": "LA", "postal_code":
+        "705111158", "telephone_number": "337-892-0630", "fax_number": "337-893-0403"}],
+        "taxonomies": [{"code": "367A00000X", "desc": "Advanced Practice Midwife",
+        "primary": true, "state": "LA", "license": "AP03087"}], "identifiers": [{"identifier":
+        "1696846", "code": "05", "desc": "MEDICAID", "state": "LA", "issuer": ""}]},{"enumeration_type":
+        "NPI-1", "number": 1740631704, "last_updated_epoch": 1539880000, "created_epoch":
+        1467244800, "basic": {"first_name": "KATRINA", "last_name": "EINANDER", "middle_name":
+        "ALINE", "credential": "L.M.", "sole_proprietor": "YES", "gender": "F", "enumeration_date":
+        "2016-06-30", "last_updated": "2018-10-18", "status": "A", "name": "EINANDER
+        KATRINA"}, "other_names": [{"code": "5", "type": "Other Name", "last_name":
+        "EINANDER", "first_name": "KAIDE", "middle_name": "ALINE", "credential": "L.M."}],
+        "addresses": [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "601 S BOONE ST STE 2", "address_2":
+        "", "city": "ABERDEEN", "state": "WA", "postal_code": "985208504", "telephone_number":
+        "206-778-2347", "fax_number": "844-675-9487"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "3200 CAPITAL MALL DR SW APT BB202", "address_2": "", "city": "OLYMPIA", "state":
+        "WA", "postal_code": "985028122", "telephone_number": "206-778-2347", "fax_number":
+        "844-675-9487"}], "taxonomies": [{"code": "176B00000X", "desc": "Midwife",
+        "primary": true, "state": "WA", "license": "MW60650176"}], "identifiers":
+        [{"identifier": "2063863", "code": "05", "desc": "MEDICAID", "state": "WA",
+        "issuer": ""}], "practiceLocations": [{"address_type": "DOM", "address_1":
+        "619 SW 152ND ST", "address_2": "", "city": "BURIEN", "state": "WA", "postal_code":
+        "981662212", "country_code": "US", "country_name": "United States", "fax_number":
+        "844-675-9487", "telephone_number": "206-659-7805", "update_date": "2018-10-18
+        16:10"}]},{"enumeration_type": "NPI-1", "number": 1407398647, "last_updated_epoch":
+        1624294620, "created_epoch": 1478217600, "basic": {"first_name": "LENKA",
+        "last_name": "CECH", "middle_name": "VYROUBALOVA", "credential": "CNM", "sole_proprietor":
+        "NO", "gender": "F", "enumeration_date": "2016-11-04", "last_updated": "2021-06-21",
+        "status": "A", "name": "CECH LENKA", "certification_date": "2021-06-21"},
+        "other_names": [{"code": "1", "type": "Former Name", "last_name": "VYROUBALOVA",
+        "first_name": "LENKA", "credential": "CNM"}], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "2109 SUMNER AVE", "address_2": "", "city": "ABERDEEN",
+        "state": "WA", "postal_code": "985203600", "telephone_number": "360-532-8631"},
+        {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "2255 S ONEIDA ST", "address_2":
+        "", "city": "DENVER", "state": "CO", "postal_code": "802242522", "telephone_number":
+        "303-360-6276"}], "taxonomies": [{"code": "163W00000X", "desc": "Registered
+        Nurse", "primary": false, "state": "CO", "license": "RN.1617235"}, {"code":
+        "367A00000X", "desc": "Advanced Practice Midwife", "primary": false, "state":
+        "CO", "license": "APN.0992342-CNM"}, {"code": "367A00000X", "desc": "Advanced
+        Practice Midwife", "primary": true, "state": "WA", "license": "AP61151481"}],
+        "identifiers": [], "practiceLocations": [{"address_type": "DOM", "address_1":
+        "3292 PEORIA ST", "address_2": "", "city": "AURORA", "state": "CO", "postal_code":
+        "800101517", "country_code": "US", "country_name": "United States", "fax_number":
+        "303-343-0664", "telephone_number": "303-360-6276", "update_date": "2021-06-21
+        16:06"}, {"address_type": "DOM", "address_1": "236 AGATE AVE", "address_2":
+        "", "city": "GRANBY", "state": "CO", "postal_code": "80446", "country_code":
+        "US", "country_name": "United States", "telephone_number": "970-887-2454",
+        "update_date": "2020-02-13 12:02"}]},{"enumeration_type": "NPI-2", "number":
+        1437708658, "last_updated_epoch": 1568125401, "created_epoch": 1568073600,
+        "basic": {"organization_name": "CROWNED BIRTH SERVICES, LLC", "organizational_subpart":
+        "NO", "enumeration_date": "2019-09-10", "last_updated": "2019-09-10", "status":
+        "A", "authorized_official_first_name": "SABRINA", "authorized_official_last_name":
+        "ELLIOTT", "authorized_official_middle_name": "R", "authorized_official_telephone_number":
+        "325-232-8805", "authorized_official_title_or_position": "OWNER", "name":
+        "CROWNED BIRTH SERVICES, LLC"}, "other_names": [{"organization_name": "CROWNED:
+        A BIRTH AND WELLNESS PLACE", "code": "3", "type": "Doing Business As"}], "addresses":
+        [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "1636 N 20TH ST", "address_2":
+        "", "city": "ABILENE", "state": "TX", "postal_code": "796012204", "telephone_number":
+        "325-232-8805", "fax_number": "325-267-6488"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "1636 N 20TH ST", "address_2": "", "city": "ABILENE", "state": "TX", "postal_code":
+        "796012204", "telephone_number": "325-232-8805", "fax_number": "325-267-6488"}],
+        "taxonomies": [{"code": "176B00000X", "desc": "Midwife", "primary": true,
+        "state": "", "license": "", "taxonomy_group": "193400000X SINGLE SPECIALTY  GROUP"}],
+        "identifiers": []},{"enumeration_type": "NPI-1", "number": 1245746098, "last_updated_epoch":
+        1513296000, "created_epoch": 1513296000, "basic": {"first_name": "MELISSA",
+        "last_name": "GOODRICH", "sole_proprietor": "NO", "gender": "F", "enumeration_date":
+        "2017-12-15", "last_updated": "2017-12-15", "status": "A", "name": "GOODRICH
+        MELISSA"}, "other_names": [], "addresses": [{"country_code": "US", "country_name":
+        "United States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "2726 BUTTON WILLOW PKWY", "address_2": "", "city": "ABILENE", "state": "TX",
+        "postal_code": "796063516", "telephone_number": "325-201-5840"}, {"country_code":
+        "US", "country_name": "United States", "address_purpose": "MAILING", "address_type":
+        "DOM", "address_1": "2726 BUTTON WILLOW PKWY", "address_2": "", "city": "ABILENE",
+        "state": "TX", "postal_code": "796063516", "telephone_number": "325-201-5840"}],
+        "taxonomies": [{"code": "367A00000X", "desc": "Advanced Practice Midwife",
+        "primary": true, "state": "TX", "license": "AP135731"}], "identifiers": []},{"enumeration_type":
+        "NPI-1", "number": 1225400112, "last_updated_epoch": 1589387804, "created_epoch":
+        1446163200, "basic": {"first_name": "SABRINA", "last_name": "ELLIOTT", "middle_name":
+        "ROXANNE", "credential": "LM, CPM", "sole_proprietor": "YES", "gender": "F",
+        "enumeration_date": "2015-10-30", "last_updated": "2020-05-13", "status":
+        "A", "name": "ELLIOTT SABRINA", "certification_date": "2020-05-13"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "1233 NOTTINGHAM
+        RD", "address_2": "", "city": "ABILENE", "state": "TX", "postal_code": "79602",
+        "telephone_number": "325-261-1146"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "1636 N 20TH ST", "address_2": "", "city": "ABILENE", "state": "TX", "postal_code":
+        "796012204", "telephone_number": "325-261-1146", "fax_number": "325-267-6488"}],
+        "taxonomies": [{"code": "176B00000X", "desc": "Midwife", "primary": true,
+        "state": "TX", "license": "99392"}], "identifiers": [], "endpoints": [{"endpointType":
+        "OTHERS", "endpointTypeDescription": "Other URL", "endpoint": "https://clientcarecent.net/",
+        "endpointDescription": "EMR", "affiliation": "N", "affiliationName": "", "use":
+        "HIE", "useDescription": "Health Information Exchange (HIE)", "useOtherDescription":
+        "", "contentType": "", "contentTypeDescription": "", "contentOtherDescription":
+        "", "address_type": "DOM", "address_1": "1636 N 20TH ST", "address_2": "",
+        "city": "ABILENE", "state": "TX", "country_code": "US", "postal_code": "796012204",
+        "country_name": "United States"}]},{"enumeration_type": "NPI-1", "number":
+        1558728782, "last_updated_epoch": 1458058597, "created_epoch": 1453161600,
+        "basic": {"first_name": "WENDI", "last_name": "RICE", "credential": "C.N.M.",
+        "sole_proprietor": "NO", "gender": "F", "enumeration_date": "2016-01-19",
+        "last_updated": "2016-03-15", "status": "A", "name": "RICE WENDI"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "1924 PINE
+        ST", "address_2": "SUITE 401-B", "city": "ABILENE", "state": "TX", "postal_code":
+        "796012451", "telephone_number": "325-670-4242", "fax_number": "325-670-4201"},
+        {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "PO BOX 1198", "address_2":
+        "", "city": "ABILENE", "state": "TX", "postal_code": "796041198", "telephone_number":
+        "325-670-4372", "fax_number": "325-670-4040"}], "taxonomies": [{"code": "367A00000X",
+        "desc": "Advanced Practice Midwife", "primary": true, "state": "TX", "license":
+        "AP130277"}], "identifiers": []},{"enumeration_type": "NPI-1", "number": 1366826919,
+        "last_updated_epoch": 1524009600, "created_epoch": 1436832000, "basic": {"first_name":
+        "SHEILA", "last_name": "DENIKEN", "credential": "CNM", "sole_proprietor":
+        "NO", "gender": "F", "enumeration_date": "2015-07-14", "last_updated": "2018-04-18",
+        "status": "A", "name": "DENIKEN SHEILA"}, "other_names": [], "addresses":
+        [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "1200 OLD YORK RD FL TOLL",
+        "address_2": "", "city": "ABINGTON", "state": "PA", "postal_code": "190013720",
+        "telephone_number": "215-481-6784", "fax_number": "215-481-3611"}, {"country_code":
+        "US", "country_name": "United States", "address_purpose": "MAILING", "address_type":
+        "DOM", "address_1": "7 WINFIELD AVE", "address_2": "", "city": "UPPER DARBY",
+        "state": "PA", "postal_code": "190822204"}], "taxonomies": [{"code": "176B00000X",
+        "desc": "Midwife", "primary": false, "state": "PA", "license": "MW010375"},
+        {"code": "367A00000X", "desc": "Advanced Practice Midwife", "primary": true,
+        "state": "PA", "license": "MW010375"}], "identifiers": []},{"enumeration_type":
+        "NPI-1", "number": 1033582010, "last_updated_epoch": 1632322431, "created_epoch":
+        1447286400, "basic": {"name_prefix": "MS.", "first_name": "YULIYA", "last_name":
+        "LABKO", "credential": "CRNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date":
+        "2015-11-12", "last_updated": "2021-09-22", "status": "A", "name": "LABKO
+        YULIYA", "certification_date": "2021-09-22"}, "other_names": [{"code": "2",
+        "type": "Professional Name", "last_name": "LABKO", "first_name": "YULIYA",
+        "prefix": "MS.", "credential": "MSN, CNM"}], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "1245 HIGHLAND AVE STE 109", "address_2": "", "city":
+        "ABINGTON", "state": "PA", "postal_code": "190013722", "telephone_number":
+        "215-481-4212"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "600 E GENESEE ST STE 323",
+        "address_2": "", "city": "SYRACUSE", "state": "NY", "postal_code": "132023108",
+        "telephone_number": "315-426-1100", "fax_number": "410-749-0654"}], "taxonomies":
+        [{"code": "176B00000X", "desc": "Midwife", "primary": false, "state": "NY",
+        "license": "001881"}, {"code": "367A00000X", "desc": "Advanced Practice Midwife",
+        "primary": true, "state": "PA", "license": "MW010633"}, {"code": "367A00000X",
+        "desc": "Advanced Practice Midwife", "primary": false, "state": "MD", "license":
+        "R207715"}], "identifiers": [{"identifier": "119591300", "code": "05", "desc":
+        "MEDICAID", "state": "MD", "issuer": ""}]},{"enumeration_type": "NPI-1", "number":
+        1821235185, "last_updated_epoch": 1231372800, "created_epoch": 1231372800,
+        "basic": {"first_name": "LISA", "last_name": "SANDERSON", "sole_proprietor":
+        "NO", "gender": "F", "enumeration_date": "2009-01-08", "last_updated": "2009-01-08",
+        "status": "A", "name": "SANDERSON LISA"}, "other_names": [], "addresses":
+        [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "1608 ISLETA BLVD SW", "address_2":
+        "", "city": "ALBUQUERQUE", "state": "NM", "postal_code": "871054634", "telephone_number":
+        "505-907-8311"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "2303 MEADOW RD SW", "address_2":
+        "", "city": "ABQ", "state": "NM", "postal_code": "87105"}], "taxonomies":
+        [{"code": "176B00000X", "desc": "Midwife", "primary": true, "state": "NM",
+        "license": "08043R"}], "identifiers": []}]}'
+  recorded_at: Tue, 21 Dec 2021 22:08:42 GMT
+recorded_with: VCR 6.0.0

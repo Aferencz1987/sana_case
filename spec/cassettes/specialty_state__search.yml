@@ -1,0 +1,187 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://npiregistry.cms.hhs.gov/api/?state=co&taxonomy_description=midwife&version=2.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 22:15:00 GMT
+      Content-Type:
+      - application/json
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Set-Cookie:
+      - TS017b4e40=01cffab1d3a74a5f351bec20c9838fb410c5e5966947f69826ea7791f77159bf8a75d5399d15f0431c98b4ea5700547e75bfb083e3;
+        Path=/; Domain=.npiregistry.cms.hhs.gov
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"result_count":10, "results":[{"enumeration_type": "NPI-1", "number":
+        1568464899, "last_updated_epoch": 1327449600, "created_epoch": 1117497600,
+        "basic": {"name_prefix": "MRS.", "first_name": "ANNE", "last_name": "WALTERS",
+        "middle_name": "LOUISE", "credential": "CNM MSN", "sole_proprietor": "NO",
+        "gender": "F", "enumeration_date": "2005-05-31", "last_updated": "2012-01-25",
+        "status": "A", "name": "WALTERS ANNE"}, "other_names": [], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "701 E HAMPDEN AVE", "address_2": "SUITE 130", "city":
+        "ENGLEWOOD", "state": "CO", "postal_code": "801132736", "telephone_number":
+        "303-781-5299", "fax_number": "303-781-5809"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "701 E HAMPDEN AVE", "address_2": "SUITE 130", "city": "ENGLEWOOD", "state":
+        "CO", "postal_code": "801132736", "telephone_number": "303-781-5299", "fax_number":
+        "303-781-5809"}], "taxonomies": [{"code": "176B00000X", "desc": "Midwife",
+        "primary": true, "state": "CO", "license": "128551"}], "identifiers": [{"identifier":
+        "92783341", "code": "01", "desc": "Other", "state": "CO", "issuer": "MEDICAID
+        GROUP NUMBER"}, {"identifier": "20070748", "code": "01", "desc": "Other",
+        "state": "CO", "issuer": "MEDICAID GROUP NUMBER"}, {"identifier": "91480361",
+        "code": "05", "desc": "MEDICAID", "state": "CO", "issuer": ""}, {"identifier":
+        "22832564", "code": "01", "desc": "Other", "state": "CO", "issuer": "MEDICAID
+        GROUP NUMBER"}]},{"enumeration_type": "NPI-1", "number": 1376547067, "last_updated_epoch":
+        1280188800, "created_epoch": 1118275200, "basic": {"first_name": "CATHY",
+        "last_name": "HARTT", "middle_name": "F", "credential": "RN, CNM", "sole_proprietor":
+        "NO", "gender": "F", "enumeration_date": "2005-06-09", "last_updated": "2010-07-27",
+        "status": "A", "name": "HARTT CATHY"}, "other_names": [], "addresses": [{"country_code":
+        "US", "country_name": "United States", "address_purpose": "LOCATION", "address_type":
+        "DOM", "address_1": "851 MAIN STREET", "address_2": "", "city": "NUCLA", "state":
+        "CO", "postal_code": "81424", "telephone_number": "970-864-3719", "fax_number":
+        "970-864-2286"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "PO BOX 39", "address_2": "",
+        "city": "NUCLA", "state": "CO", "postal_code": "814240039", "telephone_number":
+        "970-864-3719", "fax_number": "970-864-2286"}], "taxonomies": [{"code": "367A00000X",
+        "desc": "Advanced Practice Midwife", "primary": true, "state": "CO", "license":
+        "76690"}], "identifiers": [{"identifier": "07766900", "code": "05", "desc":
+        "MEDICAID", "state": "CO", "issuer": ""}]},{"enumeration_type": "NPI-1", "number":
+        1912902669, "last_updated_epoch": 1183852800, "created_epoch": 1119052800,
+        "basic": {"first_name": "LARAINE", "last_name": "GUYETTE", "credential": "CNM",
+        "sole_proprietor": "NO", "gender": "F", "enumeration_date": "2005-06-18",
+        "last_updated": "2007-07-08", "status": "A", "name": "GUYETTE LARAINE"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "UNIVERSITY
+        OF COLORADO AT DENVER & HEALTH SCIENCES", "address_2": "", "city": "DENVER",
+        "state": "CO", "postal_code": "802620001", "telephone_number": "303-372-6400"},
+        {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "1685 UINTA ST", "address_2":
+        "", "city": "DENVER", "state": "CO", "postal_code": "802202117", "telephone_number":
+        "303-320-1038"}], "taxonomies": [{"code": "176B00000X", "desc": "Midwife",
+        "primary": true, "state": "CO", "license": "35335"}], "identifiers": [{"identifier":
+        "07353352", "code": "05", "desc": "MEDICAID", "state": "CO", "issuer": ""}]},{"enumeration_type":
+        "NPI-1", "number": 1164428405, "last_updated_epoch": 1353456000, "created_epoch":
+        1119398400, "basic": {"first_name": "KATE", "last_name": "KOSCHORECK", "credential":
+        "CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date": "2005-06-22",
+        "last_updated": "2012-11-21", "status": "A", "name": "KOSCHORECK KATE"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "12605
+        E 16TH AVE", "address_2": "", "city": "AURORA", "state": "CO", "postal_code":
+        "800452545", "telephone_number": "720-848-0000"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "PO BOX 110429", "address_2": "", "city": "AURORA", "state": "CO", "postal_code":
+        "800420429", "telephone_number": "303-493-7000"}], "taxonomies": [{"code":
+        "367A00000X", "desc": "Advanced Practice Midwife", "primary": true, "state":
+        "CO", "license": "99775"}], "identifiers": [{"identifier": "67524729", "code":
+        "05", "desc": "MEDICAID", "state": "CO", "issuer": ""}]},{"enumeration_type":
+        "NPI-1", "number": 1831196567, "last_updated_epoch": 1183852800, "created_epoch":
+        1120694400, "basic": {"first_name": "PATRICIA", "last_name": "MCHARDY", "credential":
+        "C.N.M.", "sole_proprietor": "NO", "gender": "F", "enumeration_date": "2005-07-07",
+        "last_updated": "2007-07-08", "status": "A", "name": "MCHARDY PATRICIA"},
+        "other_names": [], "addresses": [{"country_code": "US", "country_name": "United
+        States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "6 GARDEN CTR", "address_2": "", "city": "BROOMFIELD", "state": "CO", "postal_code":
+        "800201730", "telephone_number": "720-887-2220", "fax_number": "720-887-2229"},
+        {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "6 GARDEN CTR", "address_2":
+        "", "city": "BROOMFIELD", "state": "CO", "postal_code": "800201730", "telephone_number":
+        "720-887-2220", "fax_number": "720-887-2229"}], "taxonomies": [{"code": "367A00000X",
+        "desc": "Advanced Practice Midwife", "primary": true, "state": "CO", "license":
+        "59195"}], "identifiers": [{"identifier": "07591951", "code": "05", "desc":
+        "MEDICAID", "state": "CO", "issuer": ""}]},{"enumeration_type": "NPI-1", "number":
+        1134127012, "last_updated_epoch": 1305590400, "created_epoch": 1121212800,
+        "basic": {"first_name": "BETTY", "last_name": "JENNINGS", "middle_name": "J.",
+        "credential": "C.N.M.", "sole_proprietor": "YES", "gender": "F", "enumeration_date":
+        "2005-07-13", "last_updated": "2011-05-17", "status": "A", "name": "JENNINGS
+        BETTY"}, "other_names": [], "addresses": [{"country_code": "US", "country_name":
+        "United States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "425 S CHERRY ST", "address_2": "SUITE 410", "city": "DENVER", "state": "CO",
+        "postal_code": "802461226", "telephone_number": "303-377-9500", "fax_number":
+        "303-377-2712"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "425 S CHERRY ST", "address_2":
+        "SUITE 410", "city": "DENVER", "state": "CO", "postal_code": "802461226",
+        "telephone_number": "303-377-9500", "fax_number": "303-377-2712"}], "taxonomies":
+        [{"code": "176B00000X", "desc": "Midwife", "primary": true, "state": "CO",
+        "license": "39453"}], "identifiers": [{"identifier": "021719", "code": "01",
+        "desc": "Other", "state": "CO", "issuer": "KAISER COMMERCIAL NUMBER"}, {"identifier":
+        "07025422", "code": "05", "desc": "MEDICAID", "state": "CO", "issuer": ""}]},{"enumeration_type":
+        "NPI-1", "number": 1700884541, "last_updated_epoch": 1202083200, "created_epoch":
+        1121212800, "basic": {"first_name": "RUTH", "last_name": "PARKER", "middle_name":
+        "E", "credential": "CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date":
+        "2005-07-13", "last_updated": "2008-02-04", "status": "A", "name": "PARKER
+        RUTH"}, "other_names": [], "addresses": [{"country_code": "US", "country_name":
+        "United States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "12605 E 16TH AVE", "address_2": "UNIVERSITY OF COLORADO HOSPITAL", "city":
+        "AURORA", "state": "CO", "postal_code": "800452545", "telephone_number": "720-848-0000"},
+        {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "13611 E COLFAX AVE", "address_2":
+        "", "city": "AURORA", "state": "CO", "postal_code": "800455701", "telephone_number":
+        "303-493-7000"}], "taxonomies": [{"code": "367A00000X", "desc": "Advanced
+        Practice Midwife", "primary": true, "state": "CO", "license": "55938"}], "identifiers":
+        [{"identifier": "97636061", "code": "05", "desc": "MEDICAID", "state": "CO",
+        "issuer": ""}]},{"enumeration_type": "NPI-1", "number": 1245238088, "last_updated_epoch":
+        1361836800, "created_epoch": 1121212800, "basic": {"first_name": "PATRICIA",
+        "last_name": "EMMONS", "middle_name": "W", "credential": "CNM", "sole_proprietor":
+        "NO", "gender": "F", "enumeration_date": "2005-07-13", "last_updated": "2013-02-26",
+        "status": "A", "name": "EMMONS PATRICIA"}, "other_names": [], "addresses":
+        [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "1721 E 19TH AVENUE", "address_2":
+        "STE 454", "city": "DENVER", "state": "CO", "postal_code": "802181243", "telephone_number":
+        "303-225-1251", "fax_number": "303-228-1250"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "4900 S MONACO", "address_2": "STE 210", "city": "DENVER", "state": "CO",
+        "postal_code": "802373486", "telephone_number": "303-228-1251", "fax_number":
+        "303-228-1250"}], "taxonomies": [{"code": "176B00000X", "desc": "Midwife",
+        "primary": false, "state": "CO", "license": "73483"}, {"code": "176B00000X",
+        "desc": "Midwife", "primary": true, "state": "CO", "license": "1307"}], "identifiers":
+        [{"identifier": "07734833", "code": "05", "desc": "MEDICAID", "state": "CO",
+        "issuer": ""}]},{"enumeration_type": "NPI-1", "number": 1942208798, "last_updated_epoch":
+        1185148800, "created_epoch": 1121212800, "basic": {"first_name": "JESSICA",
+        "last_name": "BREESE", "middle_name": "R.", "credential": "C.N.M.", "sole_proprietor":
+        "YES", "gender": "F", "enumeration_date": "2005-07-13", "last_updated": "2007-07-23",
+        "status": "A", "name": "BREESE JESSICA"}, "other_names": [], "addresses":
+        [{"country_code": "US", "country_name": "United States", "address_purpose":
+        "LOCATION", "address_type": "DOM", "address_1": "1551 S FLAMINGO WAY", "address_2":
+        "", "city": "DENVER", "state": "CO", "postal_code": "802223909", "telephone_number":
+        "303-757-2802"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "1551 S FLAMINGO WAY", "address_2":
+        "", "city": "DENVER", "state": "CO", "postal_code": "802223909", "telephone_number":
+        "303-757-2802"}], "taxonomies": [{"code": "176B00000X", "desc": "Midwife",
+        "primary": true, "state": "CO", "license": "122261"}], "identifiers": [{"identifier":
+        "68982216", "code": "05", "desc": "MEDICAID", "state": "CO", "issuer": ""}]},{"enumeration_type":
+        "NPI-1", "number": 1710987698, "last_updated_epoch": 1294099200, "created_epoch":
+        1121904000, "basic": {"first_name": "JESSICA", "last_name": "ANDERSON", "credential":
+        "CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date": "2005-07-21",
+        "last_updated": "2011-01-04", "status": "A", "name": "ANDERSON JESSICA"},
+        "other_names": [], "addresses": [{"country_code": "US", "country_name": "United
+        States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "12605 E 16TH AVE", "address_2": "", "city": "AURORA", "state": "CO", "postal_code":
+        "800452545", "telephone_number": "720-848-0000"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "PO BOX 876", "address_2": "", "city": "AURORA", "state": "CO", "postal_code":
+        "800400876", "telephone_number": "303-493-7000"}], "taxonomies": [{"code":
+        "367A00000X", "desc": "Advanced Practice Midwife", "primary": true, "state":
+        "CO", "license": "170011"}], "identifiers": [{"identifier": "31974228", "code":
+        "05", "desc": "MEDICAID", "state": "CO", "issuer": ""}]}]}'
+  recorded_at: Tue, 21 Dec 2021 22:15:00 GMT
+recorded_with: VCR 6.0.0

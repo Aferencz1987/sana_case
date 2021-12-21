@@ -4,9 +4,9 @@ RSpec.describe "Welcome page" do
   describe 'welcome page display' do
     it 'has a welcome message' do
       visit '/'
-      expect(page).to have_content("Welcome to med search")
+
+      expect(page).to have_content("Welcome to Med Search")
       expect(page).to have_field("Medical Provider's First Name")
-      save_and_open_page
     end
   end
   describe 'provider searches' do
@@ -16,8 +16,8 @@ RSpec.describe "Welcome page" do
 
         fill_in(:last_name_1, :with => 'Kemp')
         fill_in(:state, :with => 'co')
-        save_and_open_page
         click_button("Search by Last Name and Location")
+
         expect(current_path).to eq('/providers')
       end
     end
@@ -27,18 +27,32 @@ RSpec.describe "Welcome page" do
 
         fill_in(:last_name_2, :with => 'Kemp')
         fill_in(:first_name, :with => 'Laura')
+
         click_button("Search by Full Name")
+
         expect(current_path).to eq('/providers')
       end
     end
 
+    # it 'last name and specialty' do
+    #   VCR.use_cassette 'specialty_last_name__search_2' do
+    #     visit '/'
+    #
+    #     fill_in(:last_name_3, :with => 'Kemp')
+    #     fill_in(:specialty, :with => 'midwife')
+    #     click_button("Search by Specialty")
+    #     expect(current_path).to eq('/providers')
+    #   end
+    # end
+
     it 'last name and specialty' do
-      VCR.use_cassette 'specialty_last_name__search_2' do
+      VCR.use_cassette 'specialty_location__search' do
         visit '/'
 
-        fill_in(:last_name_3, :with => 'Kemp')
+        fill_in(:state_2, :with => 'Kemp')
         fill_in(:specialty, :with => 'midwife')
         click_button("Search by Specialty")
+
         expect(current_path).to eq('/providers')
       end
     end
