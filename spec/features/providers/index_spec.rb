@@ -14,6 +14,18 @@ RSpec.describe "provider page" do
       end
     end
 
+    it 'last name and full state name results' do
+      VCR.use_cassette 'long_location_last_name_search' do
+        visit '/'
+
+        fill_in(:last_name_1, :with => 'kemp')
+        fill_in(:state, :with => 'colorado')
+        click_button("Search by Last Name and Location")
+        expect(page).to have_content(/kemp/i)
+        expect(page).to have_content("Results")
+      end
+    end
+
     it 'first and last name' do
       VCR.use_cassette 'first_name_last_name_search' do
         visit '/'
