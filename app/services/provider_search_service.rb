@@ -10,8 +10,13 @@ class ProviderSearchService
       search_result = JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.last_name_specialty(last_name, specialty)
-    response = conn.get "?taxonomy_description=#{specialty}&last_name=#{last_name}&version=2.1"
+  # def self.last_name_specialty(last_name, specialty)
+  #   response = conn.get "?taxonomy_description=#{specialty}&last_name=#{last_name}&version=2.1"
+  #     search_result = JSON.parse(response.body, symbolize_names: true)
+  # end
+
+  def self.state_specialty(state, specialty)
+    response = conn.get "?taxonomy_description=#{specialty}&state=#{state}&version=2.1"
       search_result = JSON.parse(response.body, symbolize_names: true)
   end
 

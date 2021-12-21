@@ -2,18 +2,17 @@
 
 class ProvidersController < ApplicationController
   def index
+    length = params[:state].length
+      state_abbreviation = state_name_conversion(params[:state]) if length > 2
+      state_abbreviation = params[:state] if length <= 2
+
     if params[:commit] == "Search by Last Name and Location"
-      length = params[:state].length
-      if length > 2
-        state_abbreviation = state_name_conversion(params[:state])
-      else
-        state_abbreviation = params[:state]
-      end
       @providers = ProviderSearchFacade.last_name_location(params[:last_name_1], state_abbreviation)
     elsif params[:commit] == "Search by Full Name"
       @providers = ProviderSearchFacade.first_name_last_name(params[:last_name_2], params[:first_name])
     elsif params[:commit] == "Search by Specialty"
-      @providers = ProviderSearchFacade.last_name_specialty(params[:last_name_3], params[:specialty])
+      # @providers = ProviderSearchFacade.last_name_specialty(params[:last_name_3], params[:specialty])
+      @providers = ProviderSearchFacade.state_specialty(state_abbreviation, params[:specialty])
     else
       @providers = []
       @error = "An error has occured. Please try again."

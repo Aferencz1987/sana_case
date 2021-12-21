@@ -14,10 +14,17 @@ RSpec.describe 'provider search facade' do
         expect(result[0].last_name.downcase).to eq("kemp")
       end
     end
-    it 'last name and specialty' do
-      VCR.use_cassette 'last_name_specialty_facade' do
-        result = ProviderSearchFacade.last_name_specialty("kemp", "midwife")
-        expect(result[0].last_name.downcase).to eq("kemp")
+    # it 'last name and specialty' do
+    #   VCR.use_cassette 'last_name_specialty_facade' do
+    #     result = ProviderSearchFacade.last_name_specialty("kemp", "midwife")
+    #     expect(result[0].last_name.downcase).to eq("kemp")
+    #   end
+    # end
+    it 'state and specialty' do
+      VCR.use_cassette 'state_specialty_facade' do
+        result = ProviderSearchFacade.state_specialty("co", "midwife")
+        require "pry"; binding.pry
+        expect(result[0].last_name.downcase).to eq("brown")
       end
     end
   end
