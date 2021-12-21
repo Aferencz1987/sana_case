@@ -23,8 +23,8 @@ RSpec.describe 'provider search facade' do
     it 'state and specialty' do
       VCR.use_cassette 'state_specialty_facade' do
         result = ProviderSearchFacade.state_specialty("co", "midwife")
-        require "pry"; binding.pry
-        expect(result[0].last_name.downcase).to eq("brown")
+        expect(result[1].specialty.downcase).to eq("advanced practice midwife")
+        expect(result[0].address_list[0][:state]).to eq("CO")
       end
     end
   end
