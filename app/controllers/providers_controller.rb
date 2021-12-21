@@ -10,5 +10,6 @@ class ProvidersController < ApplicationController
       @providers = []
       @error = "An error has occured. Please try again."
     end
+    @providers = @providers.paginate(:page => params[:page], :per_page => 20)
   end
 end
