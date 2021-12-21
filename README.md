@@ -5,15 +5,20 @@
 ##### This app was created using the NPI (National Provider Identifier) [API](https://npiregistry.cms.hhs.gov/registry/help-api) used by Medicare and Medicaid.
 * Visit [this link](https://immense-harbor-32934.herokuapp.com/) for the deployed app.
 
-App requirements include but are not limited to:
-* The backend API calls serving the UI need to accept searches by:
+##### Currently Med Search can:
+
+* Backend API calls serving the UI accept searches by
   * Last Name + 2 character state abbrevation
+  * Last Name + State
   * First Name + Last Name
-  * Exact provider specialty + 2 character state abbrevation
-* The interface should take the doctor's name and the state as inputs.
-* On fetched results, the UI should display the provider’s full name, NPI number, and a list
-of addresses for each result.
-* Include pagination (optional)
+  * Provider Specialty + 2 character state abbrevation
+  * Provider Specialty + State 
+* On fetched results, the UI displays
+  *  Number of results
+  *  Provider’s full name
+  *  NPI number
+  *  List of addresses for each result.
+  * Include's pagination with 20 result per page cap.
  
 #### Framework
 <p>
@@ -39,7 +44,7 @@ of addresses for each result.
   <img src="https://img.shields.io/badge/Heroku-430098.svg?&style=flaste&logo=heroku&logoColor=white" />
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
 
 
 #### <ins>Project Configurations</ins>
