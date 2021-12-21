@@ -28,19 +28,6 @@ RSpec.describe 'NPPES NPI registry api' do
       end
     end
 
-    # it 'returns information based on last name and specialty' do
-    #   VCR.use_cassette 'kemp_midwife' do
-    #     result = ProviderSearchService.last_name_specialty('kemp', 'midwife')
-    #
-    #     expect(result[:results][0][:basic][:last_name]).to eq("KEMP")
-    #     expect(result[:results][1][:basic][:last_name]).to eq("KEMP")
-    #     expect(result[:results][2][:basic][:last_name]).to_not eq("BART")
-    #     expect(result[:results][0][:taxonomies][0][:desc]).to eq("Advanced Practice Midwife")
-    #     expect(result[:results][1][:taxonomies][0][:desc]).to eq("Advanced Practice Midwife")
-    #     expect(result[:results][2][:taxonomies][0][:desc]).to eq("Advanced Practice Midwife")
-    #   end
-    # end
-
     it 'returns information based on last name and specialty' do
       VCR.use_cassette 'co_midwife' do
         result = ProviderSearchService.state_specialty('co', 'midwife')

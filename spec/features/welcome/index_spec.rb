@@ -34,17 +34,6 @@ RSpec.describe "Welcome page" do
       end
     end
 
-    # it 'last name and specialty' do
-    #   VCR.use_cassette 'specialty_last_name__search_2' do
-    #     visit '/'
-    #
-    #     fill_in(:last_name_3, :with => 'Kemp')
-    #     fill_in(:specialty, :with => 'midwife')
-    #     click_button("Search by Specialty")
-    #     expect(current_path).to eq('/providers')
-    #   end
-    # end
-
     it 'last name and specialty' do
       VCR.use_cassette 'specialty_location__search' do
         visit '/'

@@ -1,0 +1,110 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://npiregistry.cms.hhs.gov/api/?first_name=Laura&last_name=Kemp&version=2.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 21 Dec 2021 22:25:37 GMT
+      Content-Type:
+      - application/json
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Set-Cookie:
+      - TS017b4e40=01cffab1d3bd6fa080a277e3b0280bc16c1133ef6ad156abc95857dcf1e9580a84af0282cbab341fa1c6e024aeb7f8b39c60d24307;
+        Path=/; Domain=.npiregistry.cms.hhs.gov
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"result_count":5, "results":[{"enumeration_type": "NPI-1", "number":
+        1427051499, "last_updated_epoch": 1381795200, "created_epoch": 1116892800,
+        "basic": {"first_name": "LAURA", "last_name": "KEMP", "middle_name": "L",
+        "credential": "CNM", "sole_proprietor": "NO", "gender": "F", "enumeration_date":
+        "2005-05-24", "last_updated": "2013-10-15", "status": "A", "name": "KEMP LAURA"},
+        "other_names": [], "addresses": [{"country_code": "US", "country_name": "United
+        States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "501 VAN BUREN ST", "address_2": "SUITE 203", "city": "FOSTORIA", "state":
+        "OH", "postal_code": "448301534", "telephone_number": "419-435-4950", "fax_number":
+        "419-435-0849"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "501 VAN BUREN ST", "address_2":
+        "SUITE 203", "city": "FOSTORIA", "state": "OH", "postal_code": "448301534",
+        "telephone_number": "419-435-4950", "fax_number": "419-435-0849"}], "taxonomies":
+        [{"code": "367A00000X", "desc": "Advanced Practice Midwife", "primary": true,
+        "state": "OH", "license": "RN183006"}], "identifiers": [{"identifier": "2530434",
+        "code": "05", "desc": "MEDICAID", "state": "OH", "issuer": ""}]},{"enumeration_type":
+        "NPI-1", "number": 1447449038, "last_updated_epoch": 1389571200, "created_epoch":
+        1192665600, "basic": {"first_name": "LAURA", "last_name": "KEMP", "middle_name":
+        "MARIE", "sole_proprietor": "YES", "gender": "F", "enumeration_date": "2007-10-18",
+        "last_updated": "2014-01-13", "status": "A", "name": "KEMP LAURA"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "15904
+        CHEHALIS CT", "address_2": "SUITE B", "city": "APPLE VALLEY", "state": "CA",
+        "postal_code": "923076259", "telephone_number": "760-686-4968"}, {"country_code":
+        "US", "country_name": "United States", "address_purpose": "MAILING", "address_type":
+        "DOM", "address_1": "15904 CHEHALIS CT", "address_2": "SUITE B", "city": "APPLE
+        VALLEY", "state": "CA", "postal_code": "923076259", "telephone_number": "760-686-4968"}],
+        "taxonomies": [{"code": "101YA0400X", "desc": "Counselor Addiction (Substance
+        Use Disorder)", "primary": false, "state": "CA", "license": ""}, {"code":
+        "101YM0800X", "desc": "Counselor Mental Health", "primary": true, "state":
+        "", "license": ""}], "identifiers": []},{"enumeration_type": "NPI-1", "number":
+        1528303716, "last_updated_epoch": 1354147200, "created_epoch": 1354147200,
+        "basic": {"first_name": "LAURA", "last_name": "KEMP", "middle_name": "R",
+        "credential": "LCSW", "sole_proprietor": "NO", "gender": "F", "enumeration_date":
+        "2012-11-29", "last_updated": "2012-11-29", "status": "A", "name": "KEMP LAURA"},
+        "other_names": [], "addresses": [{"country_code": "US", "country_name": "United
+        States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "139 HENRY PKWY", "address_2": "", "city": "MCDONOUGH", "state": "GA", "postal_code":
+        "302536636", "telephone_number": "770-358-5252", "fax_number": "770-229-3223"},
+        {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "4157 BROOKHAVEN DR SE", "address_2":
+        "", "city": "COVINGTON", "state": "GA", "postal_code": "300143195", "telephone_number":
+        "770-788-8607", "fax_number": "770-229-3223"}], "taxonomies": [{"code": "101YM0800X",
+        "desc": "Counselor Mental Health", "primary": true, "state": "", "license":
+        ""}], "identifiers": [{"identifier": "GRP2054", "code": "01", "desc": "Other",
+        "state": "GA", "issuer": "MEDICARE"}, {"identifier": "000601609G", "code":
+        "05", "desc": "MEDICAID", "state": "GA", "issuer": ""}]},{"enumeration_type":
+        "NPI-1", "number": 1841640661, "last_updated_epoch": 1468484263, "created_epoch":
+        1465862400, "basic": {"first_name": "LAURA", "last_name": "KEMP", "middle_name":
+        "JEANNE", "credential": "CRNA", "sole_proprietor": "YES", "gender": "F", "enumeration_date":
+        "2016-06-14", "last_updated": "2016-07-14", "status": "A", "name": "KEMP LAURA"},
+        "other_names": [], "addresses": [{"country_code": "US", "country_name": "United
+        States", "address_purpose": "LOCATION", "address_type": "DOM", "address_1":
+        "690 CANTON ST", "address_2": "SUITE 325", "city": "WESTWOOD", "state": "MA",
+        "postal_code": "020902321", "telephone_number": "781-407-7713", "fax_number":
+        "781-407-0998"}, {"country_code": "US", "country_name": "United States", "address_purpose":
+        "MAILING", "address_type": "DOM", "address_1": "690 CANTON ST", "address_2":
+        "SUITE 325", "city": "WESTWOOD", "state": "MA", "postal_code": "020902321",
+        "telephone_number": "781-407-7713", "fax_number": "781-407-0998"}], "taxonomies":
+        [{"code": "367500000X", "desc": "Nurse Anesthetist, Certified Registered",
+        "primary": true, "state": "MA", "license": "RN2290035"}], "identifiers": []},{"enumeration_type":
+        "NPI-1", "number": 1356918486, "last_updated_epoch": 1623146980, "created_epoch":
+        1623110400, "basic": {"first_name": "LAURA", "last_name": "KEMP", "middle_name":
+        "ELIZABETH", "credential": "LCSW", "sole_proprietor": "NO", "gender": "F",
+        "enumeration_date": "2021-06-08", "last_updated": "2021-06-08", "status":
+        "A", "name": "KEMP LAURA", "certification_date": "2021-06-07"}, "other_names":
+        [], "addresses": [{"country_code": "US", "country_name": "United States",
+        "address_purpose": "LOCATION", "address_type": "DOM", "address_1": "4516 BOAT
+        CLUB RD STE 106", "address_2": "", "city": "FORT WORTH", "state": "TX", "postal_code":
+        "761357020", "telephone_number": "817-238-0106"}, {"country_code": "US", "country_name":
+        "United States", "address_purpose": "MAILING", "address_type": "DOM", "address_1":
+        "4516 BOAT CLUB RD STE 106", "address_2": "", "city": "FORT WORTH", "state":
+        "TX", "postal_code": "761357020"}], "taxonomies": [{"code": "1041C0700X",
+        "desc": "Social Worker Clinical", "primary": true, "state": "TX", "license":
+        "63649"}], "identifiers": []}]}'
+  recorded_at: Tue, 21 Dec 2021 22:25:37 GMT
+recorded_with: VCR 6.0.0

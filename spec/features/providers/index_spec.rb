@@ -38,19 +38,7 @@ RSpec.describe "provider page" do
         expect(page).to have_content("Results")
       end
     end
-    # it 'last name and specialty' do
-    #   VCR.use_cassette 'specialty_last_name__search' do
-    #     visit '/'
-    #
-    #     fill_in(:last_name_3, :with => 'kemp')
-    #     fill_in(:specialty, :with => 'midwife')
-    #     click_button("Search by Specialty")
-    #
-    #     expect(page).to have_content(/kemp/i)
-    #     expect(page).to have_content(/midwife/i)
-    #     expect(page).to have_content("Results")
-    #   end
-    # end
+
     it 'state and specialty' do
       VCR.use_cassette 'specialty_state__search' do
         visit '/'
